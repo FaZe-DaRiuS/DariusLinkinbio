@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Link en Bio - FaZe_DaRiuS</title>
 </head>
+
 <body>
     <div class="container">
         <div class="profile">
             <a id="download-link" href="profile.jpg" download="profile.jpg">
-            <img src="profile.jpg" alt="Foto de perfil" class="profile-img">
-                </a>
+                <img src="profile.jpg" alt="Foto de perfil" class="profile-img">
+            </a>
             <h1 class="name">FaZe_DaRiuS</h1>
-            <p class="description">Senior developer Python 🐍</p>
+            <p class="description" style="margin-bottom: 15px;">
+                🌍 <strong>Country:</strong> Spain 🇪🇸<br>
+                🗣️ <strong>Language:</strong> Spanish<br><br>
+                💻 <strong>Senior developer:</strong> Python 🐍<br>
+                🌐 <strong>Junior developer:</strong> HTML, CSS y JS 🚀
+            </p>
+
         </div>
         <div class="links">
             <a href="https://m.youtube.com/@ElMundoCurioso-ELMC" target="_blank" class="link link-1">Youtube</a>
@@ -22,11 +30,12 @@
         </div>
 
 
-        <!-- Botón para alternar entre modo oscuro y claro -->
+        <button id="copy-link" class="copy-link">🔗</button>
         <button id="toggle-theme" class="toggle-theme">🌙</button>
     </div>
 
     <!-- Enlace al archivo JavaScript -->
     <script src="script.js"></script>
 </body>
+
 </html>
