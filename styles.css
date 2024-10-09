@@ -93,7 +93,7 @@ body {
 
 .link-3::before {
   background-image: url('icono3.png');
-  border-radius: 8px /* Asegúrate de que este archivo exista en tu proyecto */
+  border-radius: 4px /* Asegúrate de que este archivo exista en tu proyecto */
 }
 
 .link-3 {
