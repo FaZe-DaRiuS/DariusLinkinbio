@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #121212; /* Fondo oscuro predeterminado */
-  color: #ffffff; /* Texto claro */
+  background-color: #121212; 
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
-  background-color: #1e1e1e; /* Fondo ligeramente más claro que el cuerpo */
+  background-color: #1e1e1e; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -32,15 +32,9 @@ body {
 }
 
 .name {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: 1.5em;
   color: #ffffff;
-}
-
-.visit-counter {
-  font-size: 0.9em;
-  color: #ffffff; /* Blanco en tema oscuro */
-  margin-bottom: 15px;
 }
 
 .description {
@@ -82,18 +76,17 @@ body {
   vertical-align: middle;
 }
 
-/* Asignar iconos personalizados a cada link */
 .link-1::before {
-  background-image: url('icono1.png'); /* Asegúrate de que este archivo exista en tu proyecto */
+  background-image: url('icono1.png'); 
 }
 
 .link-2::before {
-  background-image: url('icono2.png'); /* Asegúrate de que este archivo exista en tu proyecto */
+  background-image: url('icono2.png'); 
 }
 
 .link-3::before {
   background-image: url('icono3.png');
-  border-radius: 4px /* Asegúrate de que este archivo exista en tu proyecto */
+  border-radius: 4px 
 }
 
 .link-3 {
@@ -121,7 +114,6 @@ body {
   transform: scale(1.1);
 }
 
-/* Estilos para el tema claro */
 .light-mode {
   background-color: #f0f0f0;
   color: #000000;
@@ -157,10 +149,17 @@ body {
   color: #000000;
 }
 
-/* Cambia el color del texto de visitas en el tema claro */
-.light-mode .visit-counter {
-  color: #000000; /* Negro en tema claro */
+.visit-counter {
+  font-size: 13.5px; 
+  color: rgb(255, 255, 255, 0.7);
+  margin: 5px 0;
 }
+
+.light-mode .visit-counter {
+  color: rgb(0, 0, 0, 0.6); 
+}
+
+
 
 @media (max-width: 600px) {
   .container {
