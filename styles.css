@@ -39,7 +39,7 @@ body {
 
 .visit-counter {
   font-size: 0.9em;
-  color: #bbbbbb; /* Color en tema oscuro */
+  color: #ffffff; /* Blanco en tema oscuro */
   margin-bottom: 15px;
 }
 
@@ -157,13 +157,8 @@ body {
 }
 
 /* Cambia el color del texto de visitas en el tema claro */
-.visit-counter {
-  font-size: 0.9em;
-  margin-bottom: 15px;
-}
-
 .light-mode .visit-counter {
-  color: #333333; /* Color en tema claro */
+  color: #000000; /* Negro en tema claro */
 }
 
 @media (max-width: 600px) {
