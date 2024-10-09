@@ -82,6 +82,18 @@ body {
   vertical-align: middle;
 }
 
+.link-1::before {
+  background-image: url('icono1.png');
+}
+
+.link-2::before {
+  background-image: url('icono2.png');
+}
+
+.link-3::before {
+  background-image: url('icono3.png');
+}
+
 .link-3 {
   pointer-events: none;
   opacity: 0.5;
