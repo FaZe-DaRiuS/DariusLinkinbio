@@ -157,8 +157,13 @@ body {
 }
 
 /* Cambia el color del texto de visitas en el tema claro */
+.visit-counter {
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
 .light-mode .visit-counter {
-  color: #666666; /* Color en tema claro */
+  color: #333333; /* Color en tema claro */
 }
 
 @media (max-width: 600px) {
