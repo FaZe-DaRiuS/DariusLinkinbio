@@ -39,7 +39,7 @@ body {
 
 .visit-counter {
   font-size: 0.9em;
-  color: #bbbbbb;
+  color: #bbbbbb; /* Color en tema oscuro */
   margin-bottom: 15px;
 }
 
@@ -82,16 +82,17 @@ body {
   vertical-align: middle;
 }
 
+/* Asignar iconos personalizados a cada link */
 .link-1::before {
-  background-image: url('icono1.png');
+  background-image: url('icono1.png'); /* Asegúrate de que este archivo exista en tu proyecto */
 }
 
 .link-2::before {
-  background-image: url('icono2.png');
+  background-image: url('icono2.png'); /* Asegúrate de que este archivo exista en tu proyecto */
 }
 
 .link-3::before {
-  background-image: url('icono3.png');
+  background-image: url('icono3.png'); /* Asegúrate de que este archivo exista en tu proyecto */
 }
 
 .link-3 {
@@ -119,6 +120,7 @@ body {
   transform: scale(1.1);
 }
 
+/* Estilos para el tema claro */
 .light-mode {
   background-color: #f0f0f0;
   color: #000000;
@@ -152,6 +154,11 @@ body {
 .light-mode .toggle-theme {
   background-color: #cccccc;
   color: #000000;
+}
+
+/* Cambia el color del texto de visitas en el tema claro */
+.light-mode .visit-counter {
+  color: #666666; /* Color en tema claro */
 }
 
 @media (max-width: 600px) {
